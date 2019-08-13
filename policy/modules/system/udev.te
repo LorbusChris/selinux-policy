@@ -314,7 +314,7 @@ optional_policy(`
 
 optional_policy(`
 	hotplug_read_config(udev_t)
-	# usb.agent searches /var/run/usb
+	# usb.agent searches /run/usb
 	hotplug_search_pids(udev_t)
 ')
 
